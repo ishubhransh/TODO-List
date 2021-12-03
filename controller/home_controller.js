@@ -4,8 +4,3 @@ module.exports.home = function(req,res){
         h1: "My title"
     });
 }
-
-module.exports.index= function(req,res){
-    console.log('Posting res');
-    return res.redirect('/task');
-}
