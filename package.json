@@ -4,6 +4,7 @@
   "description": "An application which is used to keep all your data, files  and upcoming task. ",
   "main": "index.js",
   "scripts": {
+    "start": "nodemon index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Shubhransh-Meshram",
