@@ -1,9 +1,12 @@
 const   express =  require('express');
 const   app     =  express();
-const   router  =  express.Router();
+const   router  =  express.Router();//Middleware
+const   homeCont=  require('../controller/home_controller');
+const   taskCont=  require('./task');
 
-console.log('Router loaded');
-
+router.get('/', homeCont.home);
+router.use('/task', taskCont);
+router.post('/', homeCont.index);
 
 
 
