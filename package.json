@@ -1,0 +1,14 @@
+{
+  "name": "todo-list",
+  "version": "1.0.0",
+  "description": "An application which is used to keep all your data, files  and upcoming task. ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Shubhransh-Meshram",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
